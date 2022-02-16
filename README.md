@@ -1,6 +1,6 @@
 # Overview
 
-A simple library to play a music for passive buzzer in Kaluma.
+Kaluma library to play music with passive buzzer.
 
 # Wiring
 
