@@ -1,6 +1,6 @@
 # Overview
 
-A simple library to play a music for passive buzzer. You can find a good example to use passive buzzer at [@kaluma/ex-buzzer](https://kaluma.io/@kaluma/ex-buzzer)
+A simple library to play a music for passive buzzer in Kaluma.
 
 # Wiring
 
@@ -9,14 +9,20 @@ A simple library to play a music for passive buzzer. You can find a good example
 | GND               | -              |
 | GP12              | +              |
 
-![1627529187373.jpeg](/api/projects/niklauslee/buzzer-music/photos/1627529187373.jpeg)
+![circuit](https://github.com/niklauslee/buzzer-music/blob/main/images/circuit.jpg?raw=true)
+
+# Install
+
+```sh
+npm install https://github.com/niklauslee/buzzer-music
+```
 
 # Usage
 
 An example for playing a simple music (A part of Beethoven's "For Elise").
 
 ```js
-const {BuzzerMusic} = require('@niklauslee/buzzer-music');
+const {BuzzerMusic} = require('buzzer-music');
 const pin = 12;
 const rhythm = 8;  // 8th note
 const tempo = 120; // 120BPM

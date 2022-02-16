@@ -1,5 +1,5 @@
 {
   "name": "buzzer-music",
-  "description": "",
+  "description": "A simple library to play a music for passive buzzer",
   "version": "0.1.0"
 }
